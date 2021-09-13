@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
 
 .App{
     width: 100vw;
@@ -5,9 +6,9 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    font-family: sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
-
+/* 
 .App .openModalBtn {
     width: 200px;
     height: 40px;
@@ -15,6 +16,24 @@
     border-radius: 6px;
     background-color: cornflowerblue;
     color: white;
+    cursor: pointer;
+} */
+
+.img_container{
+    margin: 5px;
+    border: 3px solid #ccc;
+    border-radius: 50px 50px 50px 50px;
+    width: 50%;
+}
+
+.img_container:hover{
+    border: 3px solid #777;
+}
+
+.img_container > img {
+    width: 100%;
+    height: auto;
+    border-radius: 43px;
     cursor: pointer;
 }
 
